@@ -1,8 +1,8 @@
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
-from pca_math import standardize_data, covariance_matrix, pca_eigen_decomposition, explained_variance_ratio, project_data
-from pca_plot import plot_2d_scatter, plot_3d_scatter, plot_pca_scatter, plot_bar_loadings, plot_scree
+from .pca_math import standardize_data, covariance_matrix, pca_eigen_decomposition, explained_variance_ratio, project_data
+from .pca_plot import plot_2d_scatter, plot_3d_scatter, plot_pca_scatter, plot_bar_loadings, plot_scree
 
 st.set_page_config(page_title="PCA Visualizer", layout="centered")
 

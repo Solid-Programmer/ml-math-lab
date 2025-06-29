@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from gradient_math import mae, mae_gradient, brute_force_mae_grid, gradient_descent_mae, optimizer_path_mae
-from gradient_plot import plot_line_fit, plot_final_fit, plot_mae_contour, plot_optimizer_path
+from .gradient_math import mae, mae_gradient, brute_force_mae_grid, gradient_descent_mae, optimizer_path_mae
+from .gradient_plot import plot_line_fit, plot_final_fit, plot_mae_contour, plot_optimizer_path
 
 # ----------------------------
 # Title & Data Table
