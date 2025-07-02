@@ -70,6 +70,7 @@ st.markdown('''<div class="card-row">
 </div>
 <div class="card-row">
 <div class="app-card"><b>Central Limit Theorem Simulator</b><br>See how the distribution of sample means approaches normality for various distributions.</div>
+<div class="app-card"><b>Naive Bayes Email Classifier</b><br>Classify emails as spam or ham using a transparent, interactive Naive Bayes model. Explore word contributions and model metrics.</div>
 </div>''', unsafe_allow_html=True)
 
 st.markdown('<div class="instructions"><b>Instructions:</b><ul><li>Select an app from the sidebar to begin.</li><li>Each app includes concise explanations, interactive controls, and professional visualizations.</li><li>Adjust parameters to see real-time mathematical responses.</li></ul></div>', unsafe_allow_html=True)
