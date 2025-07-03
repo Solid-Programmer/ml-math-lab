@@ -372,18 +372,23 @@ st.markdown("#### Step 5: Project the Data onto Principal Components (k = 2)")
 
 st.markdown("""
 We now transform the original data into a lower-dimensional space using the top 2 eigenvectors.
+""")
 
-Mathematically:  
-  $Z = X_{standardized} \cdot W_k$  
+st.latex(r"Z = X_{\text{standardized}} \cdot W_k")
+
+st.markdown("""
 Where:  
 - $X_{standardized}$ shape = **(8 × 5)**  
 - $W_k$ (top 2 eigenvectors) shape = **(5 × 2)**  
 - $Z$ = Projected data in PCA space = **(8 × 2)**
+""")
 
+st.markdown("""
 <b>What are PCA1 and PCA2?</b><br>
 - <b>PCA1</b> (Principal Component 1) is the direction (linear combination of original features) that captures the maximum variance in the data. It is the most important axis found by PCA.  
 - <b>PCA2</b> (Principal Component 2) is the next most important direction, orthogonal to PCA1, capturing the next highest variance.
 """, unsafe_allow_html=True)
+
 
 U_k = project_data(X_standardized, eigenvectors_sorted, k=2)
 st.dataframe(
