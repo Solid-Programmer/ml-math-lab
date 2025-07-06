@@ -72,6 +72,20 @@ st.markdown('''<div class="card-row">
 <div class="app-card"><b>Central Limit Theorem Simulator</b><br>See how the distribution of sample means approaches normality for various distributions.</div>
 <div class="app-card"><b>Naive Bayes Email Classifier</b><br>Classify emails as spam or ham using a transparent, interactive Naive Bayes model. Explore word contributions and model metrics.</div>
 <div class="app-card"><b>A/B Test Analyzer</b><br>Compare conversion rates or averages with Z and T tests. Visualize confidence intervals, p-values, and statistical power for clear decision-making.</div>
+</div>
+<div class="card-row">
+<div class="app-card"><b>Similarity Search with Cosine Distance</b><br>Find and compare similar items using cosine similarity. Explore vector spaces and high-dimensional geometry.</div>
+<div class="app-card"><b>MLE Distribution Fitting Tool</b><br>Fit distributions (Normal, Poisson, Exponential) to data using Maximum Likelihood Estimation and visualize the best-fit curve.</div>
+<div class="app-card"><b>Bias-Variance Tradeoff Demo</b><br>Explore model complexity vs generalization by plotting training and test errors across polynomial degrees.</div>
+</div>
+<div class="card-row">
+<div class="app-card"><b>Eigenfaces with PCA</b><br>Use PCA to compress and reconstruct face images from the LFW dataset. Adjust eigenfaces used and visualize reconstruction quality.</div>
+<div class="app-card"><b>Visual Loss Surface for Logistic Regression</b><br>Visualize the 3D loss surface for logistic regression and animate optimizer paths across the surface.</div>
+<div class="app-card"><b>Interactive Bayes' Theorem Simulator</b><br>Adjust priors, sensitivity, and specificity in real-time to simulate medical test outcomes or spam filters.</div>
+</div>
+<div class="card-row">
+<div class="app-card"><b>Sampling Distribution & CI Explorer</b><br>Draw repeated samples from known distributions to explore confidence intervals and the central limit theorem in action.</div>
+<div class="app-card"><b>Distance Metric Visualizer</b><br>Compare distance metrics (Euclidean, Manhattan, Cosine, Minkowski) and see how decision boundaries change with each.</div>
 </div>''', unsafe_allow_html=True)
 
 st.markdown('<div class="instructions"><b>Instructions:</b><ul><li>Select an app from the sidebar to begin.</li><li>Each app includes concise explanations, interactive controls, and professional visualizations.</li><li>Adjust parameters to see real-time mathematical responses.</li></ul></div>', unsafe_allow_html=True)
