@@ -13,7 +13,7 @@ if "results_ready" not in st.session_state:
 st.set_page_config(page_title="A/B Test Analyzer", layout="centered")
 
 # Title
-st.title("🔍 A/B Test Analyzer")
+st.title("A/B Test Analyzer")
 
 # Introduction
 st.markdown("""
@@ -81,7 +81,7 @@ elif st.session_state.last_test_type != test_type:
 # Significance level input
 alpha = st.number_input("Significance Level (α)", min_value=0.001, max_value=0.2, value=0.05, step=0.01)
 
-st.markdown("### 📥 Group A and Group B Inputs")
+st.markdown("### Group A and Group B Inputs")
 col1, col2 = st.columns(2)
 
 with col1:
