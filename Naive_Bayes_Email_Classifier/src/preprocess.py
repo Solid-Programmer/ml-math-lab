@@ -7,6 +7,7 @@ from nltk.tokenize import word_tokenize
 # One-time NLTK downloads (run only once)
 import nltk
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('stopwords')
 
 # Initialize reusable components
