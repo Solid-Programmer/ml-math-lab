@@ -56,6 +56,14 @@ st.markdown("""
     .card-row { flex-direction: column; }
     .app-card { max-width: 100%; }
 }
+section.main > div:first-child {
+    padding-top: 0rem !important;
+    margin-top: 0 !important;
+}
+            .block-container {
+    padding-top: 1rem !important;
+    margin-top: 0 !important;
+}
 </style>
 """, unsafe_allow_html=True)
 
@@ -79,15 +87,23 @@ st.markdown('''<div class="card-row">
 <div class="app-card"><b>Bias-Variance Tradeoff Demo</b><br>Explore model complexity vs generalization by plotting training and test errors across polynomial degrees.</div>
 </div>
 <div class="card-row">
-<div class="app-card"><b>Eigenfaces with PCA</b><br>Use PCA to compress and reconstruct face images from the LFW dataset. Adjust eigenfaces used and visualize reconstruction quality.</div>
 <div class="app-card"><b>Visual Loss Surface for Logistic Regression</b><br>Visualize the 3D loss surface for logistic regression and animate optimizer paths across the surface.</div>
 <div class="app-card"><b>Interactive Bayes' Theorem Simulator</b><br>Adjust priors, sensitivity, and specificity in real-time to simulate medical test outcomes or spam filters.</div>
-</div>
-<div class="card-row">
-<div class="app-card"><b>Sampling Distribution & CI Explorer</b><br>Draw repeated samples from known distributions to explore confidence intervals and the central limit theorem in action.</div>
 <div class="app-card"><b>Distance Metric Visualizer</b><br>Compare distance metrics (Euclidean, Manhattan, Cosine, Minkowski) and see how decision boundaries change with each.</div>
-</div>''', unsafe_allow_html=True)
+</div>
+''', unsafe_allow_html=True)
 
-st.markdown('<div class="instructions"><b>Instructions:</b><ul><li>Select an app from the sidebar to begin.</li><li>Each app includes concise explanations, interactive controls, and professional visualizations.</li><li>Adjust parameters to see real-time mathematical responses.</li></ul></div>', unsafe_allow_html=True)
+st.markdown("""
+<div class="footer">
+    For questions or feedback, contact the project maintainer at 
+    <a href="mailto:12bce1006@gmail.com" style="color:#1976d2; text-decoration: none; font-weight: 500;">
+        this email
+    </a>, or visit 
+    <a href="https://samkhai.com/" target="_blank" style="color:#1976d2; text-decoration: none; font-weight: 500;">
+        my portfolio
+    </a>.<br>
+    ML Math Lab &copy; 2025
+</div>
+""", unsafe_allow_html=True)
 
-st.markdown('<div class="footer">For questions or feedback, contact the project maintainer at <a href="mailto:12bce1006@gmail.com">12bce1006@gmail.com</a>.<br>ML Math Lab &copy; 2025</div>', unsafe_allow_html=True)
+

@@ -253,5 +253,18 @@ st.markdown("""
 - At **high degrees**, training error drops but test error rises → model is too complex (**high variance**).
 - The **optimal degree** lies in the middle — where test error is minimized.
 """)
+
 st.markdown("---")
+st.markdown("""
+<div class="footer">
+    For questions or feedback, contact the project maintainer at 
+    <a href="mailto:12bce1006@gmail.com" style="color:#1976d2; text-decoration: none; font-weight: 500;">
+        this email
+    </a>, or visit 
+    <a href="https://samkhai.com/" target="_blank" style="color:#1976d2; text-decoration: none; font-weight: 500;">
+        my portfolio
+    </a>.<br>
+    ML Math Lab &copy; 2025
+</div>
+""", unsafe_allow_html=True)
 
