@@ -190,7 +190,6 @@ st.pyplot(fig)
 
 # --- Show errors ---
 st.markdown(f"**Training MSE:** {train_mse:.3f}  **Test MSE:** {test_mse:.3f}")
-# --- Interpret model behavior ---
 delta = test_mse - train_mse
 
 if train_mse < 0.1 and test_mse > 50:
