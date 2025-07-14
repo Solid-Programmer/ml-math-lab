@@ -11,6 +11,7 @@ import matplotlib.pyplot as plt
 from src.main import predict, load_model_components, get_word_contributions, get_top_words, evaluate_model_metrics
 
 # --- Title and Goal ---
+st.set_page_config(page_title="Naive Bayes Email Classifier", layout="centered")
 st.title("Naive Bayes Email Classifier")
 st.markdown("<h5>Learn how we use probabilities to classify emails as spam or ham</h5>", unsafe_allow_html=True)
 

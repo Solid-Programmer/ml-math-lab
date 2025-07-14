@@ -8,6 +8,8 @@ from Gradient_Playground.gradient_plot import plot_line_fit, plot_final_fit, plo
 # ----------------------------
 # Title & Data Table
 # ----------------------------
+
+st.set_page_config(page_title="Gradient Descent Playground", layout="centered")
 st.title("Gradient Descent Playground")
 
 st.markdown("""
