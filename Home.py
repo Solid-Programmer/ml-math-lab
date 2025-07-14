@@ -87,7 +87,7 @@ st.markdown('''<div class="card-row">
 <div class="app-card"><b>Bias-Variance Tradeoff Demo</b><br>Explore model complexity vs generalization by plotting training and test errors across polynomial degrees.</div>
 </div>
 <div class="card-row">
-<div class="app-card"><b>Visual Loss Surface for Logistic Regression</b><br>Visualize the 3D loss surface for logistic regression and animate optimizer paths across the surface.</div>
+<div class="app-card"><b>Visual Loss Surface for Logistic Regression</b><br>Visualize the 3D loss surface for logistic regression</div>
 <div class="app-card"><b>Interactive Bayes' Theorem Simulator</b><br>Adjust priors, sensitivity, and specificity in real-time to simulate medical test outcomes or spam filters.</div>
 <div class="app-card"><b>Distance Metric Visualizer</b><br>Compare distance metrics (Euclidean, Manhattan, Cosine, Minkowski) and see how decision boundaries change with each.</div>
 </div>
