@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # --- Page Config ---
 st.set_page_config(page_title="Bayes Theorem Simulator", layout="centered")
-st.markdown("### Bayes Theorem Simulator")  # Replaces st.title()
+st.title("Bayes Theorem Simulator")
 
 st.markdown("#### What is Bayes' Theorem?")
 st.markdown("""
